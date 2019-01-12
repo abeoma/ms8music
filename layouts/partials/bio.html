@@ -1,0 +1,92 @@
+{{ if .Site.Data.bio.enable}}
+{{"<!-- Start Our Bio -->" | safeHTML}}
+<section id="bio" class="section">
+    <!--<section id="testimonial" class="testimonial overly section bg-2" style='background-image: url("{{ .Site.Data.testimonial.bgImage | absURL }}")'>-->
+    <div class="container">
+        <div class="row">
+            {{"<!-- section title -->" | safeHTML}}
+            <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
+                <h2>{{ with .Site.Data.bio.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.bio.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <div class="border"></div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+            {{"<!-- team member -->" | safeHTML}}
+            <div class="col-md-12 wow fadeInDown" data-wow-duration="500ms">
+
+
+                <div class="team-member">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="member-photo">
+                                {{"<!-- member photo -->" | safeHTML}}
+                                {{ with .Site.Data.bio.image }}<img class="img-responsive" src="{{ . | absURL }}" alt="Meghna" style="float: left">{{ end }}
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+
+                            {{"<!-- member name & designation -->" | safeHTML}}
+                            <div class="member-meta">
+                                {{ with .Site.Data.bio.name }}<h4>{{ . }}</h4> {{ end }}
+                                {{ with .Site.Data.bio.designation }}<span>{{ . }}</span> {{ end }}
+                                <p>John Mayer, Eric Claptonのようにブルースギターを弾きながら歌うスタイル</p>
+                                <!--{{ with .Site.Data.bio.description }}<p>{{ . }}</p> {{ end }}-->
+                                <p>19歳でギターを始め、22歳から4年間ロンドンで音楽留学。</p>
+                                <p>イギリス滞在時にBlues, Soul, R&B, Funk, Jazzに傾倒するようになり、John Mayer, Jamie Cullumのように、ブラックミュージックにポップス要素を加えた曲を作り始める。<br>
+                                    また英語特有のリズム感やメロディー乗りの良さ、そして世界中のリスナーへ届けられるという英語の魅力に惹かれ、英語で作詞作曲を始める。</p>
+                                <p>卒業後、単身でアイルランドへ渡航。<br>
+                                    バスキング（路上演奏）のみで生活費を稼ぎながら、演奏経験を積む。<br>
+                                    英語で歌うスタイルで、次第に現地のバー、レストラン等で演奏の仕事を貰うようになり、音楽活動の幅を広げていく。</p>
+                                <p>その後、10ヶ国25都市をバスキングで渡り歩きながら作詞作曲を続ける。<br>
+                                    この3年間で計1000回以上のバスキングを実施。<br>
+                                    各地で出会ったミュージシャンからオファーを受け、フェスティバルやTVCMでも演奏。</p>
+                                <p>2018年より、日本での音楽活動を開始。</p>
+                                <p>夢はThe Beatles, Eric Claptonのような人の心に残る曲作りや演奏をすること。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-push-4">
+                            <div class="member-meta">
+                                <h4>主な実績</h4>
+                                <p>2018年5月 1stアルバム - Not For Eternity - を制作（アコースティックソロアルバム）</p>
+                                <p style="color: #48b4d1">2018年7月 ドイツのテレビCMのレコーディングにギタリストとして参加 [動画あり]</p>
+                                <p>2018年8月 ドイツ、クロアチアのフェスティバルで演奏</p>
+                                <p>2018年12月 東京汐留Blue Moodでレコ発ワンマンライブ（満員御礼）</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-pull-8">
+                            <div class="iframe-wrapper">
+                                <iframe width="100%" src="https://www.youtube.com/embed/dUtCEd_BPFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end">
+                        <div class="col-md-8 col-md-push-4">
+                            <div class="member-meta">
+                                <h4>プロフィール</h4>
+                                <p>生年月日：1988年12月24日<br>
+                                血液型：AB型<br>
+                                出身地：東京<br>
+                                主な海外滞在歴：香港、ロンドン、ゴールウェイ(アイルランド)、モントリオール(カナダ)、ニューヨーク<br>
+                                好きなミュージシャン：John Mayer, Eric Clapton, The Beatles, Bob Dylan, Neil Young, Laura Marling, Jamie Cullum, 他全てのBlues/Soul系ミュージシャン<br>
+                                好きなこと：絵を描くこと、散歩、自然、野球</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="social-icon">-->
+                    <!--<ul class="list-inline">-->
+                    <!--{{ range .Site.Params.footer.socialIcon }}-->
+                        <!--<li><a href="{{ .url }}" target="_blank"><i class="{{ .icon }}"></i></a></li>-->
+                    <!--{{ end }}-->
+                    <!--</ul>-->
+                <!--</div>-->
+            </div>
+
+            {{"<!-- end team member -->" | safeHTML}}
+        </div>
+    </div>
+</section>
+{{"<!-- /team -->" | safeHTML}}
+{{ end }}

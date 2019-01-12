@@ -1,0 +1,20 @@
+enable : true
+heading: Other
+headingSpan : Videos
+videoItem :
+#- title : Come Together covered by Mamoru Satoh
+#  content : 2018.12.27 ワンマンライブ@汐留Blue Mood
+#  url: https://www.youtube.com/embed/X0TXGYT0B4g
+
+- title : Stormy Monday
+  content : 2018/12 レコ発ワンマンライブ@汐留Blue Mood
+  url: https://www.youtube.com/embed/l0QFaPXkp1E
+
+- title : I'm Tore Down
+  content : 2018/12 レコ発ワンマンライブ@汐留Blue Mood
+  url: https://www.youtube.com/embed/ycyR6G9M7DA
+
+- title : Live at The House Hotel
+  content : in 2015 (Galway, Ireland)
+  url: https://www.youtube.com/embed/xF1RvrS2mnU
+

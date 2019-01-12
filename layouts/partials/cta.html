@@ -1,0 +1,21 @@
+{{ if .Site.Params.music.enable}}
+{{"<!-- Start Call To Action -->" | safeHTML}}
+<section id="music" class="call-to-action section-sm bg-1 overly" style='background-image: url("{{ .Site.Params.counter.bgImage | absURL }}")'>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+               {{ with .Site.Params.music.title }} <h2 style="color: #fff">{{ . }}</h2> {{ end }}
+                {{ with .Site.Params.music.description1 }} <h3 style="color: #fff">{{ . }}</h3> {{ end }}
+                {{ with .Site.Params.music.description2 }} <h3 style="color: #fff">{{ . }}</h3> {{ end }}
+                {{ with .Site.Params.music.date }} <h3 style="color: #fff">{{ . }}</h3> {{ end }}
+               {{ with .Site.Params.music.cdImage }}<img width="100%" style="max-width: 360px;" src="{{ . }}">{{ end }}
+                <div>
+                    <a href="https://youtu.be/b7A8FkHWuM4" class="btn btn-main" target="_blank">アルバム視聴はこちら</a>
+                </div>
+                <!--<a href="{{ .Site.Params.cta.btnURL }}" class="btn btn-main">{{ with .Site.Params.cta.btnText }} {{ . }} {{end}}</a>-->
+            </div>
+        </div>
+    </div>
+</section>
+{{"<!-- Start Services Section -->" | safeHTML}}
+{{ end }}
