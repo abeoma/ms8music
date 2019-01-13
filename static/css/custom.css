@@ -554,6 +554,7 @@ a:hover {
 ==================================================================*/
 .navigation {
   background-color: #1d2024;
+  /*background-color: transparent;*/
   width: 100%;
   /*z-index: 99;*/
   z-index: 100;
@@ -2185,5 +2186,14 @@ blockquote {
     #bio .iframe-wrapper {
       margin-bottom:0;
     }
+    header, .navbar-brand {
+      transition: 1.0s ;
+    }
+    .is-sticky > header {
+      background-color: transparent;
+    }
 
+    .is-sticky a.navbar-brand {
+       display: none;
+    }
 }

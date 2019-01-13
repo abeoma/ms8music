@@ -14,8 +14,8 @@
             {{"<!-- logo -->" | safeHTML}}
             <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
                 <!--<img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />-->
-                <div style="font-weight: bold">Mamoru Satoh</div>
-                <div>Singer-songwriter/guitarist</div>
+                <div style="font-weight: bold">{{.Site.Title }}</div>
+                <div>{{.Site.Params.subtitle}}</div>
             </a>
             {{"<!-- /logo -->" | safeHTML}}
         </div>

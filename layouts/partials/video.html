@@ -1,27 +1,27 @@
-{{ if .Site.Data.video.enable}}
+{{ with .Site.Data.video}}
 {{"<!-- Start Video Section -->" | safeHTML}}
 <section class="bg-one video section" id="videos">
     <div class="container">
         <div class="row">
             {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                <h2>{{ .Site.Data.video.heading}} <span class="color">{{ .Site.Data.video.headingSpan}}</span> </h2>
+                <h2>{{ .heading}} <span class="color">{{ .headingSpan}}</span> </h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
 
-            {{ range .Site.Data.video.videoItem }}
+            {{ range .items }}
             {{"<!-- Video item -->" | safeHTML}}
             <div class="col-md-6  text-center wow fadeInUp" data-wow-duration="500ms">
                 <div class="block">
                     <!--<div class="icon-box">-->
                             <!--{{with .icon}}<i class="{{ . }}"></i>{{ end }}-->
                     <!--</div>-->
-                    {{ with .url }}<div class="iframe-wrapper"><iframe width="100%" src={{ . }} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>{{ end }}
+                    <div class="iframe-wrapper"><iframe width="100%" src="{{ .url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     {{"<!-- Express Video Yourself -->" | safeHTML}}
                     <div class="content text-center">
-                      {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
-                      {{ with .content}}  <p>{{ . }}</p>{{ end }}
+                      <h3 class="ddd">{{ .title }}</h3>
+                      <p>{{ .content }}</p>
                     </div>
                 </div>
             </div>

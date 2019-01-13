@@ -2,7 +2,6 @@ baseURL = "https://ms8music.com"
 languageCode = "ja"
 title = "Mamoru Satoh"
 theme = "meghna-hugo"
-description = "シンガーソングライター/ギタリスト"
 
 # Menu
 [menu]
@@ -34,6 +33,7 @@ description = "シンガーソングライター/ギタリスト"
 # Site params
 [params]
 home= "Home"
+subtitle = "Singer-songwriter/guitarist"
 logo = ""
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 custom_css = ["css/custom.css"]
@@ -41,44 +41,11 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
+    youtubeURL = "https://www.youtube.com/embed/6RSmITR8jAk"
     bgImage = "images/slider/hero-area.jpg"
     heading = "Mamoru Satoh"
     content= "シンガーソングライター・ギタリスト"
 
-    [params.music]
-    enable = true
-    title = "Not For Eternity"
-    description1 = "1stオリジナルアルバム(全９曲)"
-    description2 = "アコースティックソロ"
-    date = "2018/12/27(木) 発売"
-    cdImage = "images/cd/not_for_eternity.jpg"
-    btnURL = "https://youtu.be/b7A8FkHWuM4"
-    btnText = "アルバム視聴はこちら"
-
-    # counter
-    [params.counter]
-    enable = true
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
-
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
-
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
-    
     # footer
     [params.footer]
         copyright = "Themefisher Team"
