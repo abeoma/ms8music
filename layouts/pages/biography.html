@@ -12,21 +12,19 @@
                 {{ with .Site.Data.bio }}
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="post-single-content">
-                            <p>{{ delimit (split .longDescription "\n") "<br>"}}</p>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                         <div class="member-photo">
+                        <div class="member-photo">
                             {{"<!-- member photo -->" | safeHTML}}
                             <img class="img-responsive" style="width: 100%" src="{{ .liveImage | absURL }}" alt="Meghna" style="float: left">
+                        </div>
+                        <div class="post-single-content">
+                            <p>{{ delimit (split .longDescription "\n") "<br>"}}</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="post-single-content">
-                            <h4 class="post-single-title">主な実績</h4>
+                            <h3 class="post-single-title">主な実績</h3>
                             {{ range .achievements}}
                                 {{ if .emphasis }}
                                 <p style="color:#48b4d1"> {{ .content }}</p>
@@ -43,7 +41,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="post-single-content">
-                            <h4 class="post-single-title">プロフィール</h4>
+                            <h3 class="post-single-title">プロフィール</h3>
                             <p>佐藤 守</p>
                             {{ range .profile }}
                                 <p>{{ . }}</p>

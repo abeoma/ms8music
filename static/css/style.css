@@ -2296,11 +2296,25 @@ a:hover {
   .post-single-section {
     padding-top: 0;
   }
-  .post-single-section > .container > .row {
+  .post-single-section > .container > .row,
+  .post-single-section > .container > .row > div > .row
+  {
     margin-right: 0;
     margin-left: 0;
   }
+  .post-single-section > .container,
+  .post-single-section > .container > .row > div > .row > div
+  {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .post-single-content {
+      padding-right: 15px;
+      padding-left: 15px;
+  }
 }
+
+
 .post-single-section > .container > .row .row {
     margin-bottom: 20px;
 }
