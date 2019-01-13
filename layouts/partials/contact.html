@@ -12,17 +12,17 @@
             {{"<!-- /section title -->" | safeHTML}}
 
             {{"<!-- Contact Details -->" | safeHTML}}
-            <div class="contact-info col-md-6 col-md-offset-3 wow fadeInIn" data-wow-duration="500ms">
-                {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
-                {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
-                <div class="contact-details">
+            <div class="contact-info col-md-6 col-md-offset-3 text-center wow fadeInIn" data-wow-duration="500ms">
+                <!--{{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}-->
+                <!--{{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}-->
+                <!--<div class="contact-details">-->
                     {{ range .Site.Data.contact.contactDetails }}
-                    <h3>
-                        <i class="{{ .icon }}"></i>
-                        <span>{{ .info }}</span>
-                    </h3>
+                    <div>
+                        <i class="{{ .icon }}" style="font-size:40px;"></i>
+                        <h3>{{ .info }}</h3>
+                    </div>
                     {{ end }}
-                </div>
+                <!--</div>-->
             </div>
 
             {{"<!-- Contact Form -->" | safeHTML}}

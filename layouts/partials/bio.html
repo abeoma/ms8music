@@ -16,28 +16,39 @@
                 {{ with .Site.Data.bio }}
                 <div class="team-member">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <div class="member-photo">
                                 {{"<!-- member photo -->" | safeHTML}}
                                 <img class="img-responsive" src="{{ .image | absURL }}" alt="Meghna" style="float: left">
                             </div>
                         </div>
-                        <div class="col-md-8">
-
+                        <div class="col-md-9">
                             {{"<!-- member name & designation -->" | safeHTML}}
                             <div class="member-meta">
                                 <h4>{{ .name }}</h4>
                                 <span>{{ .designation }}</span>
-                                <p>{{ .playStyle }}</p>
-                                <p>{{ delimit (split .description "\n") "<br>"}}</p>
+                                <p class="pc-only">{{ .playStyle }}</p>
+                                <p class="pc-only">{{ delimit (split .longDescription "\n") "<br>"}}</p>
+                                <p class="sp-only"><br>{{ delimit (split .shortDescription "\n") "<br>"}}</p>
+                                <div class="sp-only text-center member-meta">
+                                    <a class="btn-main" href="{{ .Site.BaseURL}}pages/biography">もっと見る</a>
+                                </div>
+                            </div>
+                            <div class="member-meta pc-only">
+                                <br>
+                                {{ range .profile }}
+                                <p>{{ . }}</p>
+                                {{ end }}
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="team-member pc-only">
                     <div class="row">
-                        <div class="col-md-8 col-md-push-4">
+                        <div class="col-md-9 col-md-push-3">
                             <div class="member-meta">
                                 <h4>主な実績</h4>
-                                {{ range .achievements}}
+                                {{ range .achievements }}
                                     {{ if .emphasis }}
                                     <p style="color:#48b4d1"> {{ .content }}</p>
                                     {{ else }}
@@ -46,18 +57,9 @@
                                 {{ end }}
                             </div>
                         </div>
-                        <div class="col-md-4 col-md-pull-8">
+                        <div class="col-md-3 col-md-pull-9">
                             <div class="iframe-wrapper">
                                 <iframe width="100%" src="{{ .achievementYoutube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row justify-content-end">
-                        <div class="col-md-8 col-md-push-4">
-                            <div class="member-meta">
-                                <h4>プロフィール</h4>
-                                <p>{{ delimit (split .profile "\n") "<br>"}}</p>
                             </div>
                         </div>
                     </div>

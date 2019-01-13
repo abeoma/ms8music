@@ -30,6 +30,9 @@ theme = "meghna-hugo"
     URL = "contact"
     weight = 5
 
+[permalinks]
+  pages = "/:filename/"
+
 # Site params
 [params]
 home= "Home"

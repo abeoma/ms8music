@@ -15,7 +15,7 @@
             <a class="navbar-brand logo" href="{{ .Site.BaseURL | absURL }}">
                 <!--<img src="{{ .Site.Params.logo | absURL }}" alt="Logo" />-->
                 <div style="font-weight: bold">{{.Site.Title }}</div>
-                <div>{{.Site.Params.subtitle}}</div>
+                <div class="pc-only">{{.Site.Params.subtitle}}</div>
             </a>
             {{"<!-- /logo -->" | safeHTML}}
         </div>

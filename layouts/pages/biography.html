@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+<section class="section post-single-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h1 class="post-single-title">{{ .Title }}</h1>
+                {{ with .Site.Data.bio }}
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="post-single-content">
+                            <p>{{ delimit (split .longDescription "\n") "<br>"}}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                         <div class="member-photo">
+                            {{"<!-- member photo -->" | safeHTML}}
+                            <img class="img-responsive" style="width: 100%" src="{{ .liveImage | absURL }}" alt="Meghna" style="float: left">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="post-single-content">
+                            <h4 class="post-single-title">主な実績</h4>
+                            {{ range .achievements}}
+                                {{ if .emphasis }}
+                                <p style="color:#48b4d1"> {{ .content }}</p>
+                                {{ else }}
+                                <p> {{ .content }}</p>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                        <div class="iframe-wrapper">
+                            <iframe width="100%" src="{{ .achievementYoutube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="post-single-content">
+                            <h4 class="post-single-title">プロフィール</h4>
+                            <p>佐藤 守</p>
+                            {{ range .profile }}
+                                <p>{{ . }}</p>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="member-photo">
+                            {{"<!-- member photo -->" | safeHTML}}
+                            <img class="img-responsive" style="width: 100%" src="{{ .bgImage | absURL }}" alt="Meghna" style="float: left">
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
