@@ -47,7 +47,7 @@ custom_css = ["css/custom.css"]
     # Banner Section
     [params.banner]
     enable = true
-    youtubeURL = "https://www.youtube.com/embed/6RSmITR8jAk"
+    youtubeURL = "https://www.youtube.com/embed/VLYWkxMkCaA"
     bgImage = "images/slider/hero-area.jpg"
     heading = "Mamoru Satoh"
     content= "シンガーソングライター・ギタリスト"
