@@ -1,3 +1,10 @@
+以下、git cloneしたディレクトリにいる前提。
+カレントディレクトリの確認方法
+```
+$ pwd
+/Users/[username]/Documents/ms8music
+```
+
 # ファイルを更新する前に
 github上の最新のコードをローカルにマージ
 ```
