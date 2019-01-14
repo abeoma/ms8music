@@ -34,34 +34,39 @@
                                     <a class="btn-main" href="{{ .Site.BaseURL}}pages/biography">もっと見る</a>
                                 </div>
                             </div>
-                            <div class="member-meta pc-only">
-                                <br>
-                                {{ range .profile }}
-                                <p>{{ . }}</p>
-                                {{ end }}
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="team-member pc-only">
+                <div class="pc-only">
                     <div class="row">
-                        <div class="col-md-9 col-md-push-3">
-                            <div class="member-meta">
-                                <h4>主な実績</h4>
-                                {{ range .achievements }}
-                                    {{ if .emphasis }}
-                                    <p style="color:#48b4d1"> {{ .content }}</p>
-                                    {{ else }}
-                                    <p> {{ .content }}</p>
+                        <div class="col-md-7">
+                            <div class="team-member">
+                                <div class="member-meta">
+                                    <h4>主な実績</h4>
+                                    {{ range .achievements }}
+                                        {{ if .emphasis }}
+                                        <p style="color:#48b4d1"> {{ .content }}</p>
+                                        {{ else }}
+                                        <p> {{ .content }}</p>
+                                        {{ end }}
                                     {{ end }}
-                                {{ end }}
+                                </div>
+                                <div class="iframe-wrapper">
+                                    <iframe width="100%" src="{{ .achievementYoutube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-md-pull-9">
-                            <div class="iframe-wrapper">
-                                <iframe width="100%" src="{{ .achievementYoutube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="col-md-5">
+                            <div class="team-member">
+                                <div class="member-meta">
+                                    <h4>プロフィール</h4>
+                                    {{ range .profile }}
+                                    <p>{{ . }}</p>
+                                    {{ end }}
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 {{ end }}
