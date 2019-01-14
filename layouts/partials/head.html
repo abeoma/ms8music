@@ -1,14 +1,23 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
+    <meta name="description" content="{{if .IsHome }}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
     <meta name="author" content="{{ $.Site.Params.author }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="og:title" content="{{ .Title }}">
+    <meta name="og:description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ $.Site.Params.description }}{{ end }}">
+    <meta name="og:image" content="{{ .Site.BaseURL }}/{{ .Site.Data.bio.bgImage  }}">
+    <meta name="twitter:url" content="{{ if .IsPage }}{{ .Permalink }}{{ else }}{{ .Site.BaseURL }}{{ end }}">
+    <meta name="twitter:site" content="{{ .Site.Params.twitterAccount}}">
+    <meta name="twitter:creator" content="{{ .Site.Params.twitterAccount}}">
 
     {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ .Hugo.Generator }}
     
-    <title> {{ .Title }} </title>
-    
+    <title> {{ .Title }} | {{ .Site.Params.subtitle }}</title>
+
+
     {{"<!-- Favicon -->" |safeHTML}}
     <link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}"/>
     
