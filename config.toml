@@ -73,3 +73,7 @@ custom_css = ["css/custom.css"]
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-youtube"
         url = "https://www.youtube.com/channel/UCwEuF04qnE0QI4FVJg1o2sg"
+
+        [[params.footer.socialIcon]]
+        icon = "icomoon-soundcloud"
+        url = "https://soundcloud.com/user-212830831"

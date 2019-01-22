@@ -6,11 +6,7 @@
 
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
-					<ul class="list-inline">
-						{{ range .Site.Params.footer.socialIcon }}
-            <li><a href="{{ .url }}" target="_blank"><i class="{{ .icon }}"></i></a></li>
-						{{ end }}
-					</ul>
+					{{ partial "social-icons.html" . }}
 				</div>
 
 				{{"<!-- copyright -->" | safeHTML}}

@@ -1,4 +1,14 @@
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132430134-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-132430134-1');
+    </script>
+    <script src="//code.iconify.design/1/1.0.0-rc5/iconify.min.js"></script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="{{if .IsHome }}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}">
     <meta name="author" content="{{ $.Site.Params.author }}">

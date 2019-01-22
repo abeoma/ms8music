@@ -1,0 +1,17 @@
+<ul class="list-inline">
+    {{ range .Site.Params.footer.socialIcon }}
+    {{ if eq .icon "icomoon-soundcloud" }}
+    <li style="vertical-align: top;">
+        <a href="{{ .url }}" target="_blank">
+            <i class="iconify" data-icon="icomoon-free:soundcloud" data-inline="false"></i>
+        </a>
+    </li>
+    {{ else }}
+    <li>
+        <a href="{{ .url }}" target="_blank">
+            <i class="{{ .icon }}"></i>
+        </a>
+    </li>
+    {{ end }}
+   {{ end }}
+</ul>
