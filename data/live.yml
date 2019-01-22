@@ -2,25 +2,18 @@ enable : true
 heading :
 headingSpan : Live
 item :
-  - title :  アコースティックライブ
-    date : 1/11(金)
-    time: 19:00スタート（出番19:40-20:15）
-    price: ￥2,400（1ドリンク別途￥600）
-    memo: .comfort学割￥600 off
-    place : 四谷天窓
-    url: http://otonami.com/com_access
-
   - title : Can't Stop Jammin'
-    date : 1/18(金)
-    time: 19:00オープン 19:30スタート
+    date : 2/8(金)
+    time: 19:30オープン 20:00スタート
     price: 投げ銭制（セッション参加者は1500円）
     memo:
     place : 阿佐ヶ谷 Gamuso
     url: http://gamuso.com/
 
+
   - title : Can't Stop Jammin'
-    date : 2/8(金)
-    time: 19:30オープン 20:00スタート
+    date : 3/29(金)
+    time: 19:00オープン 19:30スタート
     price: 投げ銭制（セッション参加者は1500円）
     memo:
     place : 阿佐ヶ谷 Gamuso
