@@ -39,7 +39,7 @@ home= "Home"
 subtitle = "Singer-songwriter/guitarist"
 author = "Mamoru Satoh"
 twitterAccount = "@ms8_music"
-description = "ロンドンの音楽学校を卒業後、単身で10ヶ国20都市をバスキングしながら、英語での作詞作曲活動を続ける。2018年より、日本での音楽活動を開始。"
+description = "John Mayer, Eric Claptonスタイルのシンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルで演奏経験を持つ。単身で10ヶ国25都市をバスキングをしながら渡航。"
 logo = ""
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 custom_css = ["css/custom.css"]
