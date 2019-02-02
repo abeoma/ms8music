@@ -1,0 +1,11 @@
+enable : true
+heading :
+headingSpan : Live schedule
+item :
+  - title : Can't Stop Jammin'
+    date : 2/8(金)
+    time: 19:00オープン 19:30スタート
+    price: 1500円 要2ドリンク別オーダー
+    memo:
+    place : 西荻窪 LIVE BAR w.jaz（だぶじゃず）
+    url: https://wjazinfo.jimdo.com/

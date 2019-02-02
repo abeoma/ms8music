@@ -1,4 +1,5 @@
-{{ if .Site.Data.blog.enable}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if $data.blog.enable}}
 {{"<!-- Start Blog Section -->" | safeHTML}}
 <section id="blog" class="section">
     <div class="container">
@@ -6,7 +7,7 @@
 
             {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeInDown">
-                <h2> {{ with .Site.Data.blog.heading }} {{ . }} {{ end }} <span class="color"> {{ with .Site.Data.blog.headingSpan }} {{ . }} {{ end }} </span></h2>
+                <h2> {{ with $data.blog.heading }} {{ . }} {{ end }} <span class="color"> {{ with $data.blog.headingSpan }} {{ . }} {{ end }} </span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}

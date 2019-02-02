@@ -1,4 +1,5 @@
 <head>
+    {{ $data := index .Site.Data .Site.Language.Lang }}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132430134-1"></script>
     <script>
@@ -16,7 +17,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="og:title" content="{{ .Title }}">
     <meta name="og:description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ $.Site.Params.description }}{{ end }}">
-    <meta name="og:image" content="{{ .Site.BaseURL }}/{{ .Site.Data.bio.bgImage  }}">
+    <meta name="og:image" content="{{ .Site.BaseURL }}/{{ $data.bio.bgImage  }}">
     <meta name="twitter:url" content="{{ if .IsPage }}{{ .Permalink }}{{ else }}{{ .Site.BaseURL }}{{ end }}">
     <meta name="twitter:site" content="{{ .Site.Params.twitterAccount}}">
     <meta name="twitter:creator" content="{{ .Site.Params.twitterAccount}}">

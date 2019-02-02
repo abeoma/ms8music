@@ -1,7 +1,21 @@
 baseURL = "https://ms8music.com"
-languageCode = "ja"
 title = "Mamoru Satoh"
 theme = "meghna-hugo"
+#languageCode = "ja"
+DefaultContentLanguage = "ja"
+[languages]
+  [languages.ja]
+    weight = 1
+    url = "/"
+    [languages.ja.params]
+        langbutton = "Eng"
+
+  [languages.en]
+    weight = 2
+    url = "/en/"
+    [languages.en.params]
+        langbutton = "日本語"
+
 
 # Menu
 [menu]
@@ -50,7 +64,7 @@ custom_css = ["css/custom.css"]
     youtubeURL = "https://www.youtube.com/embed/VLYWkxMkCaA"
     bgImage = "images/slider/hero-area.jpg"
     heading = "Mamoru Satoh"
-    content= "シンガーソングライター・ギタリスト"
+#    content= "シンガーソングライター・ギタリスト"
 
     # footer
     [params.footer]

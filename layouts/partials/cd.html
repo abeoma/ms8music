@@ -1,4 +1,5 @@
-{{ with .Site.Data.cd }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.cd }}
 {{"<!-- Start Call To Action -->" | safeHTML}}
 <section id="music" class="pc-only call-to-action section-sm bg-1 overly" style='background-image: url("{{ .bgImage | absURL }}")'>
     <div class="container">

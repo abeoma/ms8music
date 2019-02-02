@@ -4,12 +4,13 @@
 
 {{ partial "navigation.html" . }}
 
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <section class="section post-single-section">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <h1 class="post-single-title">{{ .Title }}</h1>
-                {{ with .Site.Data.bio }}
+                {{ with $data.bio }}
                 <div class="row">
                     <div class="col-md-12">
                         <div class="member-photo">

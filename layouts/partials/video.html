@@ -1,4 +1,5 @@
-{{ with .Site.Data.video}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.video}}
 {{"<!-- Start Video Section -->" | safeHTML}}
 <section class="bg-one video section" id="videos">
     <div class="container">

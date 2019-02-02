@@ -1,19 +1,20 @@
-{{ if .Site.Data.bio.enable}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if $data.bio.enable}}
 {{"<!-- Start Bio -->" | safeHTML}}
 <section id="bio" class="section">
-    <!--<section id="testimonial" class="testimonial overly section bg-2" style='background-image: url("{{ .Site.Data.testimonial.bgImage | absURL }}")'>-->
+    <!--<section id="testimonial" class="testimonial overly section bg-2" style='background-image: url("{{ $data.testimonial.bgImage | absURL }}")'>-->
     <div class="container">
         <div class="row">
             {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.bio.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.bio.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <h2>{{ with $data.bio.heading }} {{ . }} {{ end }} <span class="color">{{ with $data.bio.headingSpan }} {{ . }} {{ end }}</span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
             {{"<!-- bio -->" | safeHTML}}
             <div class="col-md-12 wow fadeInDown" data-wow-duration="500ms">
 
-                {{ with .Site.Data.bio }}
+                {{ with $data.bio }}
                 <div class="team-member">
                     <div class="row">
                         <div class="col-md-3">
@@ -26,8 +27,8 @@
                             {{"<!-- member name & designation -->" | safeHTML}}
                             <div class="member-meta">
                                 <h4>{{ .name }}</h4>
-                                <span>{{ .designation }}</span>
-                                <p class="pc-only">{{ .playStyle }}</p>
+                                <h5>{{ .designation }}</h5>
+                                <!--<p class="pc-only">{{ .playStyle }}</p>-->
                                 <p class="pc-only">{{ delimit (split .longDescription "\n") "<br>"}}</p>
                                 <p class="sp-only"><br>{{ delimit (split .shortDescription "\n") "<br>"}}</p>
                                 <div class="sp-only text-center member-meta">
@@ -42,7 +43,7 @@
                         <div class="col-md-7">
                             <div class="team-member">
                                 <div class="member-meta">
-                                    <h4>主な実績</h4>
+                                    <h4>{{.activitiesTitle}}</h4>
                                     {{ range .achievements }}
                                         {{ if .emphasis }}
                                         <p style="color:#48b4d1"> {{ .content }}</p>
@@ -59,7 +60,7 @@
                         <div class="col-md-5">
                             <div class="team-member">
                                 <div class="member-meta">
-                                    <h4>プロフィール</h4>
+                                    <h4>{{.profileTitle}}</h4>
                                     {{ range .profile }}
                                     <p>{{ . }}</p>
                                     {{ end }}

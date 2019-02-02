@@ -588,6 +588,14 @@ a:hover {
   font-size: 16px;
   color: #737f8a;
 }
+.navigation .navigation-menu li a.btn {
+  color: #fff;
+}
+@media (max-width: 408px){
+  .navigation .navigation-menu li a.btn {
+      display:none;
+  }
+}
 
 .navigation .navigation-menu li a:hover,
 .navigation .navigation-menu li a:focus {
@@ -2231,7 +2239,8 @@ a:hover {
   }
 
 @media (min-width: 481px){
-  .sp-only {
+  .sp-only,
+  .navbar-lang{
     display: none;
   }
 }
@@ -2253,6 +2262,11 @@ a:hover {
   .navbar-brand {
     margin-top: 0;
     padding: 20px 15px !important;
+  }
+  .navbar-lang{
+    margin-top: 0;
+    padding: 20px 0px !important;
+    float: right;
   }
   .navbar-toggle {
     margin: 12px 15px !important;

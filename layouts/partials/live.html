@@ -1,18 +1,19 @@
-{{ if .Site.Data.live.enable}}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if $data.live.enable}}
 {{"<!-- live -->" | safeHTML }}
-<section id="live" class="bg-one section testimonial overly bg-2" style='background-image: url("{{ .Site.Data.team.bgImage | absURL }}")'>
+<section id="live" class="bg-one section testimonial overly bg-2" style='background-image: url("{{ $data.team.bgImage | absURL }}")'>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 {{"<!-- section title -->" | safeHTML }}
                 <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                    <h2>{{ with .Site.Data.live.heading }} {{ . }} {{ end }}<span class="color">{{ with .Site.Data.live.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <h2>{{ with $data.live.heading }} {{ . }} {{ end }}<span class="color">{{ with $data.live.headingSpan }} {{ . }} {{ end }}</span></h2>
                     <div class="border"></div>
                 </div>
                 {{"<!-- /section title -->" | safeHTML }}
             </div>
 
-            {{ range .Site.Data.live.item}}
+            {{ range $data.live.item}}
             {{"<!-- Single live Item -->" | safeHTML }}
             <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
                 <div class="service-block text-center" style="color: #fff !important;">

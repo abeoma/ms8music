@@ -1,0 +1,41 @@
+enable : true
+heading :
+headingSpan : Biography
+bgImage : images/team/bio_bg.jpg
+image : images/team/bio.jpg
+squareImage : images/team/bio_square.jpg
+liveImage : images/team/201808_live.jpg
+paintingImage : images/team/201807_painting.jpg
+name : Mamoru Satoh
+designation : Singer-songwriter/Guitarist
+longDescription : |-
+  Mamoru is a Japanese blues musician with an international background. He was born in Tokyo, but he has grown up in different countries and has travelled the world with his guitar, which makes him have multicultural and diverce experience, as a person and as a musician.
+  His play style is based on Blues/R&B/Soul. You can hear both bluesy tasty phrases and catchy melody in his music, which comes from his big influences from John Mayer, Eric Clapton and The Beatles.
+  He owns his uniqueness with his smoky voice, bluesy tasty guitar, funky groove, and jazzy harmony.
+
+  He has played guitar for German TV advert (check out the video below please), and played festivals in Germany and Croatia, not just gigging around in Europe, in North America and in Japan.
+  He started off his music career from busking in Galway, Ireland, after graduating from
+  the London Centre of Contemporary Music in 2014. He gradually gained reputations by busking and got bigger opportunities based on that.
+
+  He has been playing music in more than 25 cities, 10 countries (including major cities like London, Tokyo, Montreal, New York City, Los Angeles etc).
+shortDescription : |-
+  John Mayer, Eric Claptonのようにブルースをベースに、アドリブで歌とギターを演奏するスタイル。
+  19歳でギターを始め、22歳から4年間ロンドンで音楽留学。卒業後、単身で10ヶ国25都市をバスキングしながら渡り歩く。
+  ヨーロッパのフェスティバル演奏、TVCMレコーディング参加など幅広く活動。2018年より、日本での音楽活動を開始。
+activitiesTitle : Recent activities
+achievementYoutube : https://www.youtube.com/embed/dUtCEd_BPFY
+achievements :
+  -
+    content : May 2018 Released 1st acoustic album - Not For Eternity -
+  -
+    content : Jul 2018 Recorded guitar parts for TV adverts
+    emphasis : true
+  -
+    content : Aug 2018 Played in festivals in Germany, Croatia
+  -
+    content : Dec 2018 Done the sold out show at Blue Mood in Tokyo, Japan
+profileTitle : About me
+profile :
+  - Favourite musicians: John Mayer, Eric Clapton, Jamie Cullum, D'Angelo, all other blues/soul/R&B musicians
+  - Favourite songwriters: The Beatles, Bob Dylan, Neil Young, James Taylor, Simon & Garfunkel, Laura Marling, Eminem
+  - Hobbies: Painting (check out the album artwork, and gallery)
