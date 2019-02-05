@@ -3,9 +3,17 @@ heading :
 headingSpan : Live schedule
 item :
   - title : Can't Stop Jammin'
-    date : 2/8(金)
-    time: 19:00オープン 19:30スタート
-    price: 1500円 要2ドリンク別オーダー
+    date : 8th Feb (Fri)
+    time: Open 19:00 Start 19:30
+    price: 1,500 Yen + 2 drinks order
     memo:
     place : 西荻窪 LIVE BAR w.jaz（だぶじゃず）
     url: https://wjazinfo.jimdo.com/
+  
+  - title : Can't Stop Jammin'
+    date : 31st Mar (Sun)
+    time: Open 19:00 Start 19:30
+    price: 1,500 Yen
+    memo:
+    place : 沼袋 オルガンジャズクラブ abecafe
+    url: http://organjazzclub.dcthp.com/
