@@ -23,7 +23,7 @@
                     <p>{{ .price }}</p>
                     <p>{{ .memo }}</p>
                     <p>{{ .place }}</p>
-                    <a class="btn btn-main" href="{{ .url }}" target="_blank">{{.btnContent}}</a>
+                    <a class="btn btn-main" href="{{ .url }}" target="_blank">{{ $data.live.btnContent }}</a>
                 </div>
             </article>
             {{"<!-- End Single live Item -->" | safeHTML }}
