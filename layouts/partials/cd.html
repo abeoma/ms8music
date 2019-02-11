@@ -25,7 +25,7 @@
                 <h3 style="color: #fff">{{ .description1 }}</h3>
                 <h3 style="color: #fff">{{ .description2  }}</h3>
                 <h3 style="color: #fff">{{ .date }}</h3>
-                <img width="100%" style="max-width: 360px;" src="{{ .cdImage }}">
+                <img width="100%" style="max-width: 360px;" src="{{ .cdImage | absURL}}">
                 <div>
                     <a href="{{ .btnURL }}" class="btn btn-main" target="_blank">{{ .btnText}}</a>
                 </div>
