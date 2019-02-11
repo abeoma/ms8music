@@ -56,7 +56,7 @@ twitterAccount = "@ms8_music"
 description = "John Mayer, Eric Claptonスタイルのシンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルで演奏経験を持つ。単身で10ヶ国25都市をバスキングをしながら渡航。"
 logo = ""
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
-custom_css = ["css/custom.css"]
+custom_css = []
 
     # Banner Section
     [params.banner]
