@@ -591,7 +591,7 @@ a:hover {
 .navigation .navigation-menu li a.btn {
   color: #fff;
 }
-@media (max-width: 408px){
+@media (max-width: 767px){
   .navigation .navigation-menu li a.btn {
       display:none;
   }
@@ -2237,10 +2237,24 @@ a:hover {
   .social-links {
     margin: 50px 0;
   }
-
-@media (min-width: 481px){
-  .sp-only,
+@media (min-width: 768px){
   .navbar-lang{
+    display: none;
+  }
+}
+@media (max-width: 767px){
+  .navbar-lang{
+    margin-top: 0;
+    padding: 20px 0px !important;
+    float: right;
+  }
+  .navbar-toggle {
+    margin: 12px 15px !important;
+  }
+
+}
+@media (min-width: 481px){
+  .sp-only {
     display: none;
   }
 }
@@ -2262,14 +2276,6 @@ a:hover {
   .navbar-brand {
     margin-top: 0;
     padding: 20px 15px !important;
-  }
-  .navbar-lang{
-    margin-top: 0;
-    padding: 20px 0px !important;
-    float: right;
-  }
-  .navbar-toggle {
-    margin: 12px 15px !important;
   }
 
   .pc-only {
