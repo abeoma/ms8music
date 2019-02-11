@@ -1,6 +1,7 @@
 enable : true
 heading :
 headingSpan : Live
+btnContent: 会場
 item :
   - title : Can't Stop Jammin'
     date : 2/8(金)
