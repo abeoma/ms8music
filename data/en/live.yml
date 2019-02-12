@@ -1,7 +1,7 @@
 enable : true
 heading :
 headingSpan : Live schedule
-btnContent: 会場
+btnContent: Venue
 item :
   - title : Can't Stop Jammin'
     date : 8th Feb (Fri)
