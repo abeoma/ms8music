@@ -3,16 +3,16 @@ heading :
 headingSpan : Live
 btnContent: 会場
 item :
-  - title : Can't Stop Jammin'
-    date : 2/8(金)
+  - title : Sub Jam
+    date : 3/20(水)
     time: 19:00オープン 19:30スタート
-    price: 1500円 要2ドリンク別オーダー
+    price: 1000円
     memo:
-    place : 西荻窪 LIVE BAR w.jaz（だぶじゃず）
-    url: https://wjazinfo.jimdo.com/
+    place : 高円寺 Substore
+    url: https://substore.jimdo.com/
   
   - title : Can't Stop Jammin'
-    date : 3/31(日)
+    date : 3/30(土)
     time: 19:00オープン 19:30スタート
     price: 1500円
     memo:
