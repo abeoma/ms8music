@@ -50,7 +50,7 @@ DefaultContentLanguage = "ja"
 # Site params
 [params]
 home= "Home"
-subtitle = "Singer-songwriter/guitarist"
+subtitle = "Singer-songwriter/guitarist/painter"
 author = "Mamoru Satoh"
 twitterAccount = "@ms8_music"
 description = "John Mayer, Eric Claptonスタイルのシンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルで演奏経験を持つ。単身で10ヶ国25都市をバスキングをしながら渡航。"
@@ -61,7 +61,7 @@ custom_css = []
     # Banner Section
     [params.banner]
     enable = true
-    youtubeURL = "https://www.youtube.com/embed/VLYWkxMkCaA"
+    youtubeURL = "https://www.youtube.com/embed/5dsTfXwr-G0"
     bgImage = "images/slider/hero-area.jpg"
     heading = "Mamoru Satoh"
 #    content= "シンガーソングライター・ギタリスト"
@@ -86,7 +86,7 @@ custom_css = []
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-youtube"
-        url = "https://www.youtube.com/channel/UCwEuF04qnE0QI4FVJg1o2sg"
+        url = "https://www.youtube.com/channel/UCy3GKEYNPXgydRmLTCU9Qgw/"
 
         [[params.footer.socialIcon]]
         icon = "icomoon-soundcloud"
