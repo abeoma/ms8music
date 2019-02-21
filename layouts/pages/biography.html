@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="post-single-content">
-                            <h3 class="post-single-title">主な実績</h3>
+                            <h3 class="post-single-title"> {{ .activitiesTitle }}</h3>
                             {{ range .achievements}}
                                 {{ if .emphasis }}
                                 <p style="color:#48b4d1"> {{ .content }}</p>
@@ -42,8 +42,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="post-single-content">
-                            <h3 class="post-single-title">プロフィール</h3>
-                            <p>佐藤 守</p>
+                            <h3 class="post-single-title"> {{ .profileTitle }}</h3>
+                            <p> {{ .name }}</p>
                             {{ range .profile }}
                                 <p>{{ . }}</p>
                             {{ end }}

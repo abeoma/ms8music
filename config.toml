@@ -50,7 +50,7 @@ DefaultContentLanguage = "ja"
 # Site params
 [params]
 home= "Home"
-subtitle = "Singer-songwriter/guitarist/painter"
+subtitle = "Singer-songwriter/Guitarist/Painter"
 author = "Mamoru Satoh"
 twitterAccount = "@ms8_music"
 description = "John Mayer, Eric Claptonスタイルのシンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルで演奏経験を持つ。単身で10ヶ国25都市をバスキングをしながら渡航。"
