@@ -8,7 +8,7 @@ item :
     time: Open 19:00 Start 19:30
     price: 1,000 Yen
     memo:
-    place : 高円寺 Substore
+    place : 高円寺(Koenji) Substore
     url: https://substore.jimdo.com/
   
   - title : Can't Stop Jammin'
@@ -16,5 +16,13 @@ item :
     time: Open 19:00 Start 19:30
     price: 1,500 Yen
     memo:
-    place : 沼袋 オルガンジャズクラブ abecafe
+    place : 沼袋(Numabukuro) Organ Jazz Club abecafe
     url: http://organjazzclub.dcthp.com/
+
+  - title : Can't Stop Jammin'
+    date : 19th Apr (Fri)
+    time: Open 19:00 Start 19:30
+    price: 1,500 Yen + 2 drinks order
+    memo:
+    place : 西荻窪(Nishiogikubo) LIVE BAR w.jaz
+    url: https://wjazinfo.jimdo.com/
