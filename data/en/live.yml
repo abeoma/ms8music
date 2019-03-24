@@ -3,14 +3,7 @@ heading :
 headingSpan : Live schedule
 btnContent: Venue
 item :
-  - title : Sub Jam
-    date : 20th Mar (Wed)
-    time: Open 19:00 Start 19:30
-    price: 1,000 Yen
-    memo:
-    place : 高円寺(Koenji) Substore
-    url: https://substore.jimdo.com/
-  
+
   - title : Can't Stop Jammin'
     date : 30th Mar (Sat)
     time: Open 19:00 Start 19:30
@@ -26,3 +19,11 @@ item :
     memo:
     place : 西荻窪(Nishiogikubo) LIVE BAR w.jaz
     url: https://wjazinfo.jimdo.com/
+
+  - title : Can't Stop Jammin'
+    date : 12th May (Sun)
+    time: Open 19:00 Start 19:30
+    price: 1,500 Yen
+    memo:
+    place : 沼袋(Numabukuro) Organ Jazz Club abecafe
+    url: http://organjazzclub.dcthp.com/
