@@ -4,13 +4,13 @@ headingSpan : Live schedule
 btnContent: Venue
 item :
 
-  - title : Can't Stop Jammin'
-    date : 30th Mar (Sat)
+  - title : Sub Jam
+    date : 17th Apr (Wed)
     time: Open 19:00 Start 19:30
-    price: 1,500 Yen
+    price: 1,000 Yen
     memo:
-    place : 沼袋(Numabukuro) Organ Jazz Club abecafe
-    url: http://organjazzclub.dcthp.com/
+    place : 高円寺(Koenji) Sub Store
+    url: https://substore.jimdo.com/
 
   - title : Can't Stop Jammin'
     date : 19th Apr (Fri)

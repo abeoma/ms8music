@@ -4,13 +4,13 @@ headingSpan : Live
 btnContent: 会場
 item :
   
-  - title : Can't Stop Jammin'
-    date : 3/30(土)
+  - title : Sub Jam
+    date : 4/17(水)
     time: 19:00オープン 19:30スタート
-    price: 1500円
+    price: 1,000円
     memo:
-    place : 沼袋 オルガンジャズクラブ abecafe
-    url: http://organjazzclub.dcthp.com/
+    place : 高円寺 Sub Store
+    url: https://substore.jimdo.com/
 
   - title : Can't Stop Jammin'
     date : 4/19(金)
