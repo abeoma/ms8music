@@ -3,35 +3,51 @@ heading :
 headingSpan : Live
 btnContent: 会場
 item :
-  
-  - title : Sub Jam
-    date : 4/17(水)
-    time: 19:00オープン 19:30スタート
-    price: 1,000円
-    memo:
-    place : 高円寺 Sub Store
-    url: https://substore.jimdo.com/
 
   - title : Can't Stop Jammin'
     date : 4/19(金)
     time: 19:00オープン 19:30スタート
-    price: 1500円 + 2ドリンクオーダー
+    price: 1,500円 + 2ドリンクオーダー
     memo:
     place : 西荻窪 LIVE BAR w.jaz（だぶじゃず）
     url: https://wjazinfo.jimdo.com/
+ 
+  - title : Can't Stop Jammin'
+    date : 5/12(日)
+    time: 19:00オープン 19:30スタート
+    price: 1,500円
+    memo:
+    place : 沼袋 オルガンジャズクラブ abecafe
+    url: http://organjazzclub.dcthp.com/
 
-  - title : ワンマンライブ
-    date : 5/6(月)
-    time: 18:00オープン 19:00スタート
-    price: 2500円
+  - title : ソロ ワンマンライブ
+    date : 5/24(金)
+    time: 19:00オープン 20:00スタート
+    price: 2,000円
     memo:
     place : 高円寺 Smokin’ Fish (スモーキン フィッシュ)
     url: https://smokin-fish-tokyo.business.site/
 
-  - title : Can't Stop Jammin'
-    date : 5/12(日)
+  - title : Blues Live in オーストラリア
+    date : 6/5(水)
     time: 19:00オープン 19:30スタート
-    price: 1500円
+    price: 
+    memo:
+    place : Pistol Pete's Food N Blues (Geelong)
+    url: http://www.pistolpetesfoodnblues.com.au/
+
+  - title : Can't Stop Jammin'
+    date : 6/28(金)
+    time: 19:00オープン 19:30スタート
+    price: 1,500円
     memo:
     place : 沼袋 オルガンジャズクラブ abecafe
     url: http://organjazzclub.dcthp.com/
+
+  - title : ワンマン セッションライブ
+    date : 7/26(金)
+    time: 19:00オープン 19:30スタート
+    price: 3,000円
+    memo:
+    place : 六本木バードランド
+    url: http://www.bird-land.co.jp/
