@@ -5,14 +5,6 @@ btnContent: Venue
 item :
 
   - title : Can't Stop Jammin'
-    date : 19th Apr (Fri)
-    time: Open 19:00 Start 19:30
-    price: 1,500 Yen + 2 drinks order
-    memo:
-    place : 西荻窪(Nishiogikubo) LIVE BAR w.jaz
-    url: https://wjazinfo.jimdo.com/
-
-  - title : Can't Stop Jammin'
     date : 12th May (Sun)
     time: Open 19:00 Start 19:30
     price: 1,500 Yen
@@ -28,12 +20,12 @@ item :
     place : 高円寺(Koenji) Smokin’ Fish
     url: https://smokin-fish-tokyo.business.site/
 
-  - title : Blues Live in Geelong, Australia
+  - title : Blues Live in Geelong (Australia)
     date : 5th June (Wed)
     time: Open 19:00 Start 19:30
     price: 
     memo:
-    place : Pistol Pete's Food N Blues (Geelong)
+    place : Pistol Pete's Food N Blues (Geelong in Australia)
     url: http://www.pistolpetesfoodnblues.com.au/
 
   - title : Can't Stop Jammin'

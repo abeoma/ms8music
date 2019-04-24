@@ -5,14 +5,6 @@ btnContent: 会場
 item :
 
   - title : Can't Stop Jammin'
-    date : 4/19(金)
-    time: 19:00オープン 19:30スタート
-    price: 1,500円 + 2ドリンクオーダー
-    memo:
-    place : 西荻窪 LIVE BAR w.jaz（だぶじゃず）
-    url: https://wjazinfo.jimdo.com/
- 
-  - title : Can't Stop Jammin'
     date : 5/12(日)
     time: 19:00オープン 19:30スタート
     price: 1,500円
@@ -25,15 +17,15 @@ item :
     time: 19:00オープン 20:00スタート
     price: 2,000円
     memo:
-    place : 高円寺 Smokin’ Fish (スモーキン フィッシュ)
+    place : 高円寺 Smokin’ Fish
     url: https://smokin-fish-tokyo.business.site/
 
-  - title : Blues Live in オーストラリア
+  - title : Blues Live in Geelong (Australia)
     date : 6/5(水)
     time: 19:00オープン 19:30スタート
     price: 
     memo:
-    place : Pistol Pete's Food N Blues (Geelong)
+    place : Pistol Pete's Food N Blues (Geelong in Australia)
     url: http://www.pistolpetesfoodnblues.com.au/
 
   - title : Can't Stop Jammin'
