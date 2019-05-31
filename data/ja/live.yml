@@ -3,6 +3,13 @@ heading :
 headingSpan : Live
 btnContent: 会場
 item :
+  - title : Blues Live in Geelong (オーストラリア)
+    date : 6/5(水)
+    time: 20:30 スタート
+    price:
+    memo:
+    place : Pistol Pete's Food N Blues
+    url: http://www.pistolpetesfoodnblues.com.au/
 
   - title : Can't Stop Jammin'
     date : 6/28(金)

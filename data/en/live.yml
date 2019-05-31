@@ -4,6 +4,14 @@ headingSpan : Live schedule
 btnContent: Venue
 item :
 
+  - title : Blues Live in Geelong (Australia)
+    date : 5th June (Wed)
+    time: Start 20:30
+    price:
+    memo:
+    place : Pistol Pete's Food N Blues
+    url: http://www.pistolpetesfoodnblues.com.au/
+
   - title : Can't Stop Jammin'
     date : 28th June (Fri)
     time: Open 19:00 Start 19:30
