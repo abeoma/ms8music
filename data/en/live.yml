@@ -3,27 +3,10 @@ heading :
 headingSpan : Live schedule
 btnContent: Venue
 item :
-
-  - title : Blues Live in Geelong (Australia)
-    date : 5th June (Wed)
-    time: Start 20:30
-    price:
-    memo:
-    place : Pistol Pete's Food N Blues
-    url: http://www.pistolpetesfoodnblues.com.au/
-
-  - title : Can't Stop Jammin'
-    date : 28th June (Fri)
-    time: Open 19:00 Start 19:30
-    price: 1,500 Yen
-    memo:
-    place : 沼袋(Numabukuro) Organ Jazz Club
-    url: http://organjazzclub.dcthp.com/
-
   - title : Solo Concert Session Live
     date : 26th July (Fri)
-    time: To be announced soon
-    price:
+    time: Open 19:00 Start 19:30
+    price: Reserved 3000 yen / on door 3500 yen + 2 orders
     memo:
     place : 六本木(Roppongi) Bird Land
     url: http://www.bird-land.co.jp/
