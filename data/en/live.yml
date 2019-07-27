@@ -3,26 +3,3 @@ heading :
 headingSpan : Live schedule
 btnContent: Venue
 item :
-  - title : Solo Concert Session Live
-    date : 26th July (Fri)
-    time: Open 19:00 Start 19:30
-    price: Reserved 3000 yen / on door 3500 yen + 2 orders
-    memo:
-    place : 六本木(Roppongi) Bird Land
-    url: http://www.bird-land.co.jp/
-
-  - title : City Festivals（Germany）
-    date : 15th August (Thu) - 19th August (Mon)
-    time: 
-    price: 
-    memo:
-    place : Gifhorn, Wolfsburg, Braunschweig etc in Germany
-    url:
-
-  - title : Bike Festival（Croatia）
-    date : 26th August (Mon) - 1st September (Sun)
-    time: 
-    price: 
-    memo:
-    place : Pula, Croatia
-    url:
