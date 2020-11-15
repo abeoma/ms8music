@@ -1,5 +1,5 @@
 baseURL = "https://ms8music.com"
-title = "Mamoru Satoh"
+title = "Masa (Mamoru Satoh)"
 theme = "meghna-hugo"
 #languageCode = "ja"
 DefaultContentLanguage = "ja"
@@ -50,10 +50,10 @@ DefaultContentLanguage = "ja"
 # Site params
 [params]
 home= "Home"
-subtitle = "Singer-songwriter/Guitarist/Painter"
-author = "Mamoru Satoh"
+subtitle = "Neo City Pop singer-songwriter/guitarist"
+author = "Masa (Mamoru Satoh)"
 twitterAccount = "@ms8_music"
-description = "John Mayer, Eric Claptonスタイルのシンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルで演奏経験を持つ。単身で10ヶ国25都市をバスキングをしながら渡航。"
+description = "A Neo City Pop singersongwriter/guitarist from Japan, who has played TVCM, festivals & gigs over 30 cities. ネオシティポップ（モダンなシティポップ）系シンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルを含む10ヶ国25都市で演奏。"
 logo = ""
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 custom_css = []
