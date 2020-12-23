@@ -2,6 +2,9 @@ enable : true
 heading: Other
 headingSpan : Videos
 items :
+- title : 演奏したテレビCM
+  content : レコーディング参加（ギター）
+  url: https://www.youtube.com/embed/dUtCEd_BPFY
 
 - title : ライブ(オリジナルとカバー)
   content : ライブ2018-2019
