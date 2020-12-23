@@ -17,13 +17,15 @@
                 {{ with $data.bio }}
                 <div class="team-member">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-8 col-md-offset-2">
                             <div class="member-photo">
                                 {{"<!-- member photo -->" | safeHTML}}
                                 <img class="img-responsive" src="{{ .image | absURL }}" alt="Meghna" style="float: left">
                             </div>
                         </div>
-                        <div class="col-md-9">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
                             {{"<!-- member name & designation -->" | safeHTML}}
                             <div class="member-meta">
                                 <h4>{{ .name }}</h4>

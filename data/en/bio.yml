@@ -1,8 +1,7 @@
 enable : true
 heading :
 headingSpan : Biography
-bgImage : images/team/bio_bg.jpg
-image : images/team/bio.jpg
+image : images/team/1FaceMasa.jpg
 squareImage : images/team/bio_square.jpg
 liveImage : images/team/201808_live.jpg
 paintingImage : images/team/201807_painting.jpg

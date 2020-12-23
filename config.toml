@@ -2,7 +2,7 @@ baseURL = "https://ms8music.com"
 title = "Masa (Mamoru Satoh)"
 theme = "meghna-hugo"
 #languageCode = "ja"
-DefaultContentLanguage = "ja"
+DefaultContentLanguage = "en"
 [languages]
   [languages.ja]
     weight = 1
@@ -73,8 +73,12 @@ custom_css = []
 
         # social Icon
         [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "https://www.youtube.com/channel/UCy3GKEYNPXgydRmLTCU9Qgw/"
+
+        [[params.footer.socialIcon]]
         icon = "tf-ion-social-instagram"
-        url = "https://www.instagram.com/ms8music/"
+        url = "https://www.instagram.com/neo_citypop/"
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-twitter"
@@ -83,10 +87,6 @@ custom_css = []
          [[params.footer.socialIcon]]
         icon = "tf-ion-social-facebook"
         url = "https://www.facebook.com/ms8music/"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "https://www.youtube.com/channel/UCy3GKEYNPXgydRmLTCU9Qgw/"
 
         [[params.footer.socialIcon]]
         icon = "icomoon-soundcloud"
