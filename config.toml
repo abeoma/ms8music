@@ -25,7 +25,7 @@ DefaultContentLanguage = "en"
     weight = 1
 
     [[menu.nav]]
-    name = "Videos"
+    name = "YouTube"
     URL = "videos"
     weight = 2
 

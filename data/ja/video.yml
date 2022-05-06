@@ -1,6 +1,6 @@
 enable : true
-heading: Other
-headingSpan : Videos
+heading: YouTube
+headingSpan : Channel
 items :
 
 - title : 演奏したテレビCM
