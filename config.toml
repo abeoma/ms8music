@@ -1,5 +1,5 @@
 baseURL = "https://ms8music.com"
-title = "Masa (singer-songwriter/guitarist)"
+title = "Masa (Neo City Pop Artist)"
 theme = "meghna-hugo"
 #languageCode = "ja"
 DefaultContentLanguage = "en"
@@ -25,24 +25,14 @@ DefaultContentLanguage = "en"
     weight = 1
 
     [[menu.nav]]
-    name = "Live"
-    URL = "live"
-    weight = 2
-
-    [[menu.nav]]
-    name = "Music"
-    URL = "music"
-    weight = 3
-
-    [[menu.nav]]
     name = "Videos"
     URL = "videos"
-    weight = 4
+    weight = 2
 
     [[menu.nav]]
     name = "Contact"
     URL = "contact"
-    weight = 5
+    weight = 3
 
 [permalinks]
   pages = "/:filename/"
@@ -50,7 +40,7 @@ DefaultContentLanguage = "en"
 # Site params
 [params]
 home= "Home"
-subtitle = "Neo City Pop Artist"
+subtitle = "Singer-songwriter & guitarist"
 author = "Masa"
 twitterAccount = "@neo_citypop"
 description = "A Neo City Pop artist from Japan, who has played TVCM, festivals & gigs over 30 cities. ネオシティポップ（モダンなシティポップ）系シンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルを含む10ヶ国25都市で演奏。"
