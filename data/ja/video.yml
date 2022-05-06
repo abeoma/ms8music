@@ -2,34 +2,27 @@ enable : true
 heading: Other
 headingSpan : Videos
 items :
+
 - title : 演奏したテレビCM
   content : レコーディング参加（ギター）
   url: https://www.youtube.com/embed/dUtCEd_BPFY
 
-- title : ライブ(オリジナルとカバー)
-  content : ライブ2018-2019
-  url: https://www.youtube.com/embed/JD_Q0awyy4w
+- title : オリジナル曲
+  content : Komorebi(木洩れ日)
+  url: https://www.youtube.com/embed/D2GQmPtbqTY
 
-- title : ワンマンライブ at Blue Mood
-  content : ハイライト動画(ボーカル・ギター)
-  url: https://www.youtube.com/embed/Fz-8eDPpAG0
+- title : ３分でわかるシティポップ
+  content : 海外での人気の理由とは？
+  url: https://www.youtube.com/embed/DIzg4buVcYQ
 
-- title : -アコースティックライブ-
-  content : ＠四谷天窓 2019/1
-  url: https://www.youtube.com/embed/ngHKc68JfJw
+- title : シティポップギターソロ５選
+  content : かっこいいギターソロを弾いてみた
+  url: https://www.youtube.com/embed/6pdI7lJr1oY
 
-- title : -ライブ＆ジャムセッション-
-  content : ＠沼袋Organ Jazz Club 2019/3
-  url: https://www.youtube.com/embed/JeC0OK8HORo
+- title : シティポップアーティスト１０選
+  content : 要チェック
+  url: https://www.youtube.com/embed/hJVZCsGZSS4
 
-- title : -ライブ＆ジャムセッション-
-  content : ＠西荻窪w.jaz 2019/2
-  url: https://www.youtube.com/embed/0nqYDgizILU
-
-- title : Instagram Guitar Improvisation
-  content : Englishman In New York (2017 Sep, Montreal, Canada)
-  url: https://www.youtube.com/embed/dXQsCsG3C_g
-
-- title : Instagram Guitar Improvisation
-  content : Slow Blues in C (2017 Sep, Montreal, Canada)
-  url: https://www.youtube.com/embed/nkO5bZlGXbY
+- title : シティポップ定番コード進行５選
+  content : レッスン動画
+  url: https://www.youtube.com/embed/kb0WVB6tMPk
