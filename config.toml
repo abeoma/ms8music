@@ -77,7 +77,11 @@ custom_css = []
         url = "https://www.youtube.com/channel/UCy3GKEYNPXgydRmLTCU9Qgw/"
 
         [[params.footer.socialIcon]]
-        icon = "tf-ion-chatbubbles"
+        icon = "tf-ion-music-note"
+        url = "https://open.spotify.com/artist/3JrRIRDZ53fQxe3mlu2TiT?si=1isKoHAaSGKST1vYpNaR-g"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-chatboxes"
         url = "https://discord.gg/QyEQBY6"
 
         [[params.footer.socialIcon]]
