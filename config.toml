@@ -2,7 +2,7 @@ baseURL = "https://ms8music.com"
 title = "Masa (Neo City Pop Artist)"
 theme = "meghna-hugo"
 #languageCode = "ja"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "ja"
 [languages]
   [languages.ja]
     weight = 1
