@@ -51,7 +51,7 @@ custom_css = []
     # Banner Section
     [params.banner]
     enable = true
-    youtubeURL = "https://www.youtube.com/embed/WWDOhnUylXg"
+    youtubeURL = "https://www.youtube.com/embed/MGxj1FZO4CU"
     bgImage = "images/slider/hero-area.jpg"
     heading = "No Matter What, No Matter Where - Masa"
 #    content= "My original song"
