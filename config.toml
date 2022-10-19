@@ -62,13 +62,13 @@ custom_css = []
         copyrightURL = "http://www.themefisher.com"
 
         # social Icon
+         [[params.footer.socialIcon]]
+        icon = "tf-ion-music-note"
+        url = "https://withkoji.com/@masacitypop"
+
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-youtube"
         url = "https://www.youtube.com/channel/UCy3GKEYNPXgydRmLTCU9Qgw/"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-music-note"
-        url = "https://open.spotify.com/artist/3JrRIRDZ53fQxe3mlu2TiT?si=1isKoHAaSGKST1vYpNaR-g"
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-chatboxes"
