@@ -5,7 +5,7 @@ image : images/team/1FaceMasa.jpg
 squareImage : images/team/bio_square.jpg
 liveImage : images/team/201808_live.jpg
 paintingImage : images/team/201807_painting.jpg
-name : Masa (Border-free Music 代表)
+name : Sora Satoh (Border-free Music 代表)
 designation : ネオシティポップ系シンガーソングライター・ギタリスト
 longDescription : |-
   70、80年代のシティポップにモダンな要素を取り入れたネオシティポップのアーティスト。人生の半分以上を海外で過ごしていた経験から、日本と海外の架け橋となるようなミュージシャンを目指し、国内外での音楽活動だけでなく、音楽を通して異文化交流するコミュニティー【ネオ東京(https://discord.gg/QyEQBY6)】を設立・運営中（2022年5月現在1500人）。
@@ -17,7 +17,7 @@ longDescription : |-
   [略歴]
   幼少期よりビートルズやシティポップを聴いて育ち、ロンドンに音楽留学した際にブルースやジャズなどブラックミュージックに傾倒するようになる。また英語という言語特有のリズム感やメロディー乗りの良さ、そして世界中のリスナーへ届けられるという英語の魅力に惹かれ、英語で作詞作曲を始める。卒業後、単身でアイルランドへ渡航。バスキング（路上演奏）のみで生活費を稼ぎながら、次第に現地のバー、レストラン等で演奏の仕事を貰うようになる。その後、10ヶ国30都市をバスキング（3年間で計1000回以上）で渡り歩く。各地で出会ったミュージシャンからオファーを受け、フェスティバルやTVCMでも演奏。
 
-  お仕事の依頼やお問い合わせは masa.citypop@gmail.com までお願いします。
+  お仕事の依頼やお問い合わせは iamsorasatoh@gmail.com までお願いします。
 shortDescription : |-
   日本語にしかない言葉や日本人らしい物事の捉え方をテーマに英語で歌うシンガーソングライター。日本と海外の架け橋となるようなミュージシャンを目指し音楽活動中。
 btnContent: 活動内容を見る
@@ -38,10 +38,9 @@ achievements :
     emphasis : true
 profileTitle : プロフィール
 profile :
-  - 生年月日：1988年12月24日
   - 血液型：AB型
   - 出身地：神奈川
   - 主な海外滞在歴：香港、ロンドン、ゴールウェイ(アイルランド)、モントリオール(カナダ)、ニューヨーク
-  - 好きな音楽ジャンル：ブラックミュージック（blues/jazz/neo-soul etc）、シティポップ、フォーク　など
-  - 好きなミュージシャン：The Beatles、John Mayer、D'Angelo、大橋純子、山下達郎　など
+  - 好きな音楽ジャンル：シティポップ、アフリカンアメリカン音楽（blues/jazz/neo-soul 等）、フォーク
+  - 好きなミュージシャン：山下達郎、キリンジ、The Beatles、John Mayer、D'Angelo、など
   - 好きなこと：描画（アルバムジャケット絵）、アート鑑賞、自然

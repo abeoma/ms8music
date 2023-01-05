@@ -1,5 +1,5 @@
 baseURL = "https://ms8music.com"
-title = "Masa (Neo City Pop Artist)"
+title = "Sora Satoh (Neo CityPop Artist)"
 theme = "meghna-hugo"
 #languageCode = "ja"
 DefaultContentLanguage = "ja"
@@ -40,10 +40,10 @@ DefaultContentLanguage = "ja"
 # Site params
 [params]
 home= "Home"
-subtitle = "Singer-songwriter & guitarist"
-author = "Masa"
-twitterAccount = "@neo_citypop"
-description = "A Neo City Pop artist from Japan, who has played TVCM, festivals & gigs over 30 cities. ネオシティポップ（モダンなシティポップ）系シンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルを含む10ヶ国25都市で演奏。"
+subtitle = "Producer/Composer/Arranger/Singer-songwriter/Guitarist"
+author = "Sora Satoh"
+twitterAccount = "@iamsorasatoh"
+description = "A Neo CityPop artist from Japan, who has played TVCM, festivals & gigs over 30 cities. ネオシティポップ（モダンなシティポップ）系シンガーソングライター・ギタリスト。ドイツTVCM参加、ヨーロッパのフェスティバルを含む10ヶ国25都市で演奏。"
 logo = ""
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 custom_css = []
@@ -64,7 +64,7 @@ custom_css = []
         # social Icon
          [[params.footer.socialIcon]]
         icon = "tf-ion-music-note"
-        url = "https://withkoji.com/@masacitypop"
+        url = "https://withkoji.com/@sorasatoh"
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-youtube"
@@ -76,8 +76,8 @@ custom_css = []
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-instagram"
-        url = "https://www.instagram.com/neo_citypop/"
+        url = "https://www.instagram.com/sorasatoh/"
 
         [[params.footer.socialIcon]]
         icon = "tf-ion-social-twitter"
-        url = "https://twitter.com/neo_citypop"
+        url = "https://twitter.com/iamsorasatoh"
