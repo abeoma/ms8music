@@ -2,11 +2,11 @@ enable : true
 heading : Get In
 headingSpan : Touch
 title : お問い合わせ
-content : 演奏・出演依頼、その他お問い合わせは下記メールアドレスへご連絡ください。
+content : 演奏・出演、音楽制作のご依頼（作詞・作曲・編曲・レコーディング）、YouTubeコラボ、その他お問い合わせは下記メールアドレスへご連絡ください。
 enable_maps : false
 mapLatitude : 51.5223477
 mapLongitude: -0.1622023
 contactDetails :
   - icon : tf-ion-ios-email-outline
-    info : "iamsorasatoh@gmail.com"
+    info : "contact@sorasatoh.art"
     
